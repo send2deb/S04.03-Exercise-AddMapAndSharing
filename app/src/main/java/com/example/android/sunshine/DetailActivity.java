@@ -49,7 +49,7 @@ public class DetailActivity extends AppCompatActivity {
 
         if (id == R.id.action_share) {
             ShareCompat.IntentBuilder.from(this)
-                    .setChooserTitle("Share Weather Forecast")
+                    .setChooserTitle("Share Weather Details")
                     .setType("text/plain")
                     .setText(mForecast + "-" + FORECAST_SHARE_HASHTAG)
                     .startChooser();
